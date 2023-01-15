@@ -70,6 +70,15 @@ index e37d4a0..ce01362 100644
   git checkout -b <new name> <another branch> # From another branch
 
   ```
+  ### **Delete** branch
+
+- Branch
+  
+  ```bash
+  git branch -D <branch name>
+  ```
+
+
 ## adding remote repository
 
 - New remote repository
@@ -178,13 +187,7 @@ index e37d4a0..ce01362 100644
   # If you’re taking work from others on the internet and want to verify that commits are actually from a trusted source.
   ```
 
-## **Delete**
 
-- Branch
-  
-  ```bash
-  git branch -D <branch name>
-  ```
 
 - Tag
   
