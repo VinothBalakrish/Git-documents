@@ -39,6 +39,24 @@ if you wrongly added the file to staging area , to remove the file from staging 
   ```bash
   git diff <sha1> <sha2> > diff.txt
   ```
+  
+  example:
+  ```
+git log --oneline
+
+560333c (HEAD -> feature, tag: v1.1) c2
+4701c15 c1
+
+  git diff 5603 4701
+diff --git a/index.html b/index.html
+index e37d4a0..ce01362 100644
+--- a/index.html
++++ b/index.html
+@@ -1,3 +1 @@
+ hello
+-hi
+-welcome to the class
+```
 
 ## git branch
 
