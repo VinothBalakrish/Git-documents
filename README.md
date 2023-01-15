@@ -1,3 +1,9 @@
+# git workflow
+![image](https://user-images.githubusercontent.com/92629578/212522428-ac287cd0-60db-4b63-adbc-cd289c06bf07.png)
+# github workflow
+![image](https://user-images.githubusercontent.com/92629578/212522513-ee8d809d-0fca-46d0-b91b-00b146f91b2b.png)
+
+
 # Git commands
 
 ## **Add**
