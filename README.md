@@ -52,13 +52,14 @@ if you wrongly added the file to staging area , to remove the file from staging 
   git checkout -b <new name> <another branch> # From another branch
 
   ```
+## adding remote repository
 
 - New remote repository
   
   ```bash
   git remote add <shortname> <url>
   ```
-
+## git tag 
 - Annotated tag
   
   ```bash
