@@ -9,6 +9,8 @@
   
   git add . # To add all the files in the current directory
   ```
+Note: if you add the file to staging area - file will become untracked to tracked file . then git will track the file.
+if you wrongly added the file to staging area , to remove the file from staging area execute `git reset --staged filename`
 
 - New branch
   
