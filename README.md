@@ -40,6 +40,7 @@ if you wrongly added the file to staging area , to remove the file from staging 
   git diff <sha1> <sha2> > diff.txt
   ```
 
+## git branch
 
 - New branch
   
