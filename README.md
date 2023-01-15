@@ -12,6 +12,35 @@
 Note: if you add the file to staging area - file will become untracked to tracked file . then git will track the file.
 if you wrongly added the file to staging area , to remove the file from staging area execute `git reset --staged filename`
 
+## **Commit**
+
+- commit all local changes in tracked files
+  
+  ```bash
+  git commit -a
+  ```
+
+- commit all staged changes
+  
+  ```bash
+  git commit -m <message> # Replace <message> with your commit message.
+  ```
+
+## **Compare two commits**
+
+- and output results in the terminal
+  
+  ```bash
+  git diff <sha1> <sha2> # the sha hash of the commits you want to compare.
+  ```
+
+- and output result to a file
+  
+  ```bash
+  git diff <sha1> <sha2> > diff.txt
+  ```
+
+
 - New branch
   
   ```bash
@@ -88,34 +117,6 @@ if you wrongly added the file to staging area , to remove the file from staging 
   
   ```bash
   git submodule update --init --recursive 
-  ```
-
-## **Commit**
-
-- commit all local changes in tracked files
-  
-  ```bash
-  git commit -a
-  ```
-
-- commit all staged changes
-  
-  ```bash
-  git commit -m <message> # Replace <message> with your commit message.
-  ```
-
-## **Compare two commits**
-
-- and output results in the terminal
-  
-  ```bash
-  git diff <sha1> <sha2> # the sha hash of the commits you want to compare.
-  ```
-
-- and output result to a file
-  
-  ```bash
-  git diff <sha1> <sha2> > diff.txt
   ```
 
 ## **Configure**
