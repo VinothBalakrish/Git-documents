@@ -39,9 +39,9 @@ if you wrongly added the file to staging area , to remove the file from staging 
   ```bash
   git diff <sha1> <sha2> > diff.txt
   ```
-  
+```  
   example:
-  ```
+  
 git log --oneline
 
 560333c (HEAD -> feature, tag: v1.1) c2
