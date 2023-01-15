@@ -237,7 +237,7 @@ index e37d4a0..ce01362 100644
 - Files from index
   
   ```bash
-  git rm --cached <file or dir>
+  git rm --cached <file or dir>  / (use "git restore --staged <file>..." to unstage)
   ```
 
 - Local branches that don't exist at remote
