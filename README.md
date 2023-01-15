@@ -65,13 +65,7 @@ if you wrongly added the file to staging area , to remove the file from staging 
   git push --tags
   ```
 
-## **Cherry-pick**
 
-- An commit from the origin branch into my working branch
-  
-  ```bash
-  git cherry-pick <commit-hash> <commit-hash>
-  ```
 
 ## **Push**
 
@@ -440,4 +434,13 @@ if you wrongly added the file to staging area , to remove the file from staging 
 
   ```bash
   git tag
+  ```
+
+
+## **Cherry-pick**
+
+- An commit from the origin branch into my working branch
+  
+  ```bash
+  git cherry-pick <commit-hash> <commit-hash>
   ```
