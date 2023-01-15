@@ -70,6 +70,21 @@ index e37d4a0..ce01362 100644
   git checkout -b <new name> <another branch> # From another branch
 
   ```
+  ## **Rename**
+
+- Branch
+  
+  ```bash
+  git branch -m <new name> # while working in the branch
+  git branch -m <old name> <new name> # from outside the branch
+  ```
+
+- Remote
+  
+  ```bash
+  git remote rename <oldname> <newname>
+  ```
+  
   ### **Delete** branch
 
 - Branch
@@ -77,7 +92,11 @@ index e37d4a0..ce01362 100644
   ```bash
   git branch -D <branch name>
   ```
-
+- Remote
+  
+  ```bash
+  git remote rm <remote>
+  ```
 
 ## adding remote repository
 
@@ -188,18 +207,14 @@ index e37d4a0..ce01362 100644
   ```
 
 
-
+## **Delete**
 - Tag
   
   ```bash
   git tag -d v<tag version>
   ```
 
-- Remote
-  
-  ```bash
-  git remote rm <remote>
-  ```
+
 
 - Untracked files
   
@@ -309,20 +324,7 @@ index e37d4a0..ce01362 100644
   # Use it whenever conflicts detected therefore you can resolve these conflicts manually and use this command to continue your rebase operation
   ```
 
-## **Rename**
 
-- Branch
-  
-  ```bash
-  git branch -m <new name> # while working in the branch
-  git branch -m <old name> <new name> # from outside the branch
-  ```
-
-- Remote
-  
-  ```bash
-  git remote rename <oldname> <newname>
-  ```
 
 ## **Reset**
 
